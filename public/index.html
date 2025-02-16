@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>合体漢字ゲーム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>がったいコトバゲ<span id="selectable-hyphen" draggable="true">ー</span>ム</h1>
+    <p>私が知っているコトバを３個作ったら、アナタの勝ちです！</p>
+    <div id="kanji-container"></div>
+    
+    <!-- 解答欄を左右に追加 -->
+    <div id="drop-zone-container">
+        <div id="drop-zone-left" class="drop-zone"></div>
+        <div id="drop-zone" class="drop-zone"></div>
+    </div>
+
+    <p id="result"></p>
+    <button id="check-answer">判定</button>
+    <button id="reset">リセット</button>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
